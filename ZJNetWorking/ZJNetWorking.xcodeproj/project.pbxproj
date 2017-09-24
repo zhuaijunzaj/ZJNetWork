@@ -1,0 +1,756 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		566A45D31ED3BE800088C7B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 566A45D21ED3BE800088C7B7 /* main.m */; };
+		566A45D61ED3BE800088C7B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 566A45D51ED3BE800088C7B7 /* AppDelegate.m */; };
+		566A45D91ED3BE800088C7B7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 566A45D81ED3BE800088C7B7 /* ViewController.m */; };
+		566A45DC1ED3BE800088C7B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 566A45DA1ED3BE800088C7B7 /* Main.storyboard */; };
+		566A45DE1ED3BE800088C7B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 566A45DD1ED3BE800088C7B7 /* Assets.xcassets */; };
+		566A45E11ED3BE800088C7B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 566A45DF1ED3BE800088C7B7 /* LaunchScreen.storyboard */; };
+		566A45F41ED3C27E0088C7B7 /* ZJLoggerConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 566A45F11ED3C27E0088C7B7 /* ZJLoggerConfiguration.m */; };
+		566A45F51ED3C27E0088C7B7 /* ZJNetWorkingConfigurationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 566A45F31ED3C27E0088C7B7 /* ZJNetWorkingConfigurationManager.m */; };
+		566A45FA1ED3C3310088C7B7 /* ZJURLResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 566A45F91ED3C3310088C7B7 /* ZJURLResponse.m */; };
+		566A45FE1ED3C4440088C7B7 /* NSObject+ZJNetworkingMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 566A45FD1ED3C4440088C7B7 /* NSObject+ZJNetworkingMethods.m */; };
+		566A46011ED3C50F0088C7B7 /* NSURLRequest+ZJNetworkingMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 566A46001ED3C50F0088C7B7 /* NSURLRequest+ZJNetworkingMethods.m */; };
+		566A46041ED3C6C60088C7B7 /* ZJAPIBaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 566A46031ED3C6C60088C7B7 /* ZJAPIBaseManager.m */; };
+		566A46081ED3CD810088C7B7 /* ZJApiProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 566A46071ED3CD810088C7B7 /* ZJApiProxy.m */; };
+		566A460C1ED3CF830088C7B7 /* ZJService.m in Sources */ = {isa = PBXBuildFile; fileRef = 566A460B1ED3CF830088C7B7 /* ZJService.m */; };
+		566A460F1ED3D1890088C7B7 /* ZJServiceFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 566A460E1ED3D1890088C7B7 /* ZJServiceFactory.m */; };
+		566A46161ED3D2D80088C7B7 /* ZJCommonParamsGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 566A46151ED3D2D80088C7B7 /* ZJCommonParamsGenerator.m */; };
+		566A46191ED3D3280088C7B7 /* NSDictionary+CTNetworkingMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 566A46181ED3D3280088C7B7 /* NSDictionary+CTNetworkingMethods.m */; };
+		566A461C1ED3D3960088C7B7 /* NSArray+CTNetworkingMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 566A461B1ED3D3960088C7B7 /* NSArray+CTNetworkingMethods.m */; };
+		566A461F1ED3DCD10088C7B7 /* ZJRequestGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 566A461E1ED3DCD10088C7B7 /* ZJRequestGenerator.m */; };
+		566A46221ED3DCF10088C7B7 /* ZJSignatureGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 566A46211ED3DCF10088C7B7 /* ZJSignatureGenerator.m */; };
+		566A46251ED3DD2F0088C7B7 /* NSString+ZJNetworkingMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 566A46241ED3DD2F0088C7B7 /* NSString+ZJNetworkingMethods.m */; };
+		566A46291ED3DED40088C7B7 /* ZJLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 566A46281ED3DED40088C7B7 /* ZJLogger.m */; };
+		566A462C1ED3E0530088C7B7 /* NSMutableString+ZJNetworkingMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 566A462B1ED3E0530088C7B7 /* NSMutableString+ZJNetworkingMethods.m */; };
+		566A46341ED3E2CE0088C7B7 /* ZJCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 566A46331ED3E2CE0088C7B7 /* ZJCache.m */; };
+		566A46371ED3E2E80088C7B7 /* ZJCacheObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 566A46361ED3E2E80088C7B7 /* ZJCacheObject.m */; };
+		566A463A1ED3E71D0088C7B7 /* UIDevice+ZJNetworkingMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 566A46391ED3E71D0088C7B7 /* UIDevice+ZJNetworkingMethods.m */; };
+		566A463E1ED3E81B0088C7B7 /* ZJBaseAPICommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 566A463D1ED3E81B0088C7B7 /* ZJBaseAPICommand.m */; };
+		566A46421ED3EA390088C7B7 /* ZJLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 566A46411ED3EA390088C7B7 /* ZJLocationManager.m */; };
+		566A46441ED3EA530088C7B7 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 566A46431ED3EA530088C7B7 /* CoreLocation.framework */; };
+		566A464B1ED4103B0088C7B7 /* BaseService.m in Sources */ = {isa = PBXBuildFile; fileRef = 566A464A1ED4103B0088C7B7 /* BaseService.m */; };
+		566A464E1ED412A90088C7B7 /* BaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 566A464D1ED412A90088C7B7 /* BaseManager.m */; };
+		56A010CE1EF265C500330C99 /* ca.cer in Resources */ = {isa = PBXBuildFile; fileRef = 56A010CC1EF265C500330C99 /* ca.cer */; };
+		56A010CF1EF265C500330C99 /* client.pfx in Resources */ = {isa = PBXBuildFile; fileRef = 56A010CD1EF265C500330C99 /* client.pfx */; };
+		56A89C461ED7BA8300415C63 /* ZJSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A89C451ED7BA8300415C63 /* ZJSessionManager.m */; };
+		56A89C491ED7BC4200415C63 /* BaseApiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A89C481ED7BC4200415C63 /* BaseApiManager.m */; };
+		56ED70971F2F1BC70087A6E4 /* JddBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 56ED70961F2F1BC70087A6E4 /* JddBaseRequest.m */; };
+		56ED709A1F2F266F0087A6E4 /* JddNetworkAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 56ED70991F2F266F0087A6E4 /* JddNetworkAgent.m */; };
+		56ED709D1F2F27A30087A6E4 /* JddNetworkConfigure.m in Sources */ = {isa = PBXBuildFile; fileRef = 56ED709C1F2F27A30087A6E4 /* JddNetworkConfigure.m */; };
+		56ED70A01F2F29A30087A6E4 /* JddNetworkPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 56ED709F1F2F29A30087A6E4 /* JddNetworkPrivate.m */; };
+		56ED70A31F2F29DA0087A6E4 /* JddRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 56ED70A21F2F29DA0087A6E4 /* JddRequest.m */; };
+		56ED70A61F2F2B290087A6E4 /* JddBatchRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 56ED70A51F2F2B290087A6E4 /* JddBatchRequest.m */; };
+		56ED70A91F2F2D0A0087A6E4 /* JddChainRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 56ED70A81F2F2D0A0087A6E4 /* JddChainRequest.m */; };
+		56ED70AC1F302BEC0087A6E4 /* JddBatchReqeustAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 56ED70AB1F302BEC0087A6E4 /* JddBatchReqeustAgent.m */; };
+		56ED70AF1F302F3A0087A6E4 /* JddChainReqesutAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 56ED70AE1F302F3A0087A6E4 /* JddChainReqesutAgent.m */; };
+		C2FEDC78A0EF48CA5B68F71A /* libPods-ZJNetWorking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F41EAC53F3BF8DAB86685ED1 /* libPods-ZJNetWorking.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		352455AAA625D4CEB87265AD /* Pods-ZJNetWorking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJNetWorking.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZJNetWorking/Pods-ZJNetWorking.debug.xcconfig"; sourceTree = "<group>"; };
+		566A45CE1ED3BE800088C7B7 /* ZJNetWorking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZJNetWorking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		566A45D21ED3BE800088C7B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		566A45D41ED3BE800088C7B7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		566A45D51ED3BE800088C7B7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		566A45D71ED3BE800088C7B7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		566A45D81ED3BE800088C7B7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		566A45DB1ED3BE800088C7B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		566A45DD1ED3BE800088C7B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		566A45E01ED3BE800088C7B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		566A45E21ED3BE800088C7B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		566A45F01ED3C27E0088C7B7 /* ZJLoggerConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJLoggerConfiguration.h; sourceTree = "<group>"; };
+		566A45F11ED3C27E0088C7B7 /* ZJLoggerConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJLoggerConfiguration.m; sourceTree = "<group>"; };
+		566A45F21ED3C27E0088C7B7 /* ZJNetWorkingConfigurationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJNetWorkingConfigurationManager.h; sourceTree = "<group>"; };
+		566A45F31ED3C27E0088C7B7 /* ZJNetWorkingConfigurationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJNetWorkingConfigurationManager.m; sourceTree = "<group>"; };
+		566A45F81ED3C3310088C7B7 /* ZJURLResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJURLResponse.h; sourceTree = "<group>"; };
+		566A45F91ED3C3310088C7B7 /* ZJURLResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJURLResponse.m; sourceTree = "<group>"; };
+		566A45FC1ED3C4440088C7B7 /* NSObject+ZJNetworkingMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ZJNetworkingMethods.h"; sourceTree = "<group>"; };
+		566A45FD1ED3C4440088C7B7 /* NSObject+ZJNetworkingMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ZJNetworkingMethods.m"; sourceTree = "<group>"; };
+		566A45FF1ED3C50F0088C7B7 /* NSURLRequest+ZJNetworkingMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLRequest+ZJNetworkingMethods.h"; sourceTree = "<group>"; };
+		566A46001ED3C50F0088C7B7 /* NSURLRequest+ZJNetworkingMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLRequest+ZJNetworkingMethods.m"; sourceTree = "<group>"; };
+		566A46021ED3C6C60088C7B7 /* ZJAPIBaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJAPIBaseManager.h; sourceTree = "<group>"; };
+		566A46031ED3C6C60088C7B7 /* ZJAPIBaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJAPIBaseManager.m; sourceTree = "<group>"; };
+		566A46061ED3CD810088C7B7 /* ZJApiProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJApiProxy.h; sourceTree = "<group>"; };
+		566A46071ED3CD810088C7B7 /* ZJApiProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJApiProxy.m; sourceTree = "<group>"; };
+		566A460A1ED3CF830088C7B7 /* ZJService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJService.h; sourceTree = "<group>"; };
+		566A460B1ED3CF830088C7B7 /* ZJService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJService.m; sourceTree = "<group>"; };
+		566A460D1ED3D1890088C7B7 /* ZJServiceFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJServiceFactory.h; sourceTree = "<group>"; };
+		566A460E1ED3D1890088C7B7 /* ZJServiceFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJServiceFactory.m; sourceTree = "<group>"; };
+		566A46141ED3D2D80088C7B7 /* ZJCommonParamsGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJCommonParamsGenerator.h; sourceTree = "<group>"; };
+		566A46151ED3D2D80088C7B7 /* ZJCommonParamsGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJCommonParamsGenerator.m; sourceTree = "<group>"; };
+		566A46171ED3D3280088C7B7 /* NSDictionary+CTNetworkingMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+CTNetworkingMethods.h"; sourceTree = "<group>"; };
+		566A46181ED3D3280088C7B7 /* NSDictionary+CTNetworkingMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+CTNetworkingMethods.m"; sourceTree = "<group>"; };
+		566A461A1ED3D3960088C7B7 /* NSArray+CTNetworkingMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+CTNetworkingMethods.h"; sourceTree = "<group>"; };
+		566A461B1ED3D3960088C7B7 /* NSArray+CTNetworkingMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+CTNetworkingMethods.m"; sourceTree = "<group>"; };
+		566A461D1ED3DCD10088C7B7 /* ZJRequestGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJRequestGenerator.h; sourceTree = "<group>"; };
+		566A461E1ED3DCD10088C7B7 /* ZJRequestGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJRequestGenerator.m; sourceTree = "<group>"; };
+		566A46201ED3DCF10088C7B7 /* ZJSignatureGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJSignatureGenerator.h; sourceTree = "<group>"; };
+		566A46211ED3DCF10088C7B7 /* ZJSignatureGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJSignatureGenerator.m; sourceTree = "<group>"; };
+		566A46231ED3DD2F0088C7B7 /* NSString+ZJNetworkingMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ZJNetworkingMethods.h"; sourceTree = "<group>"; };
+		566A46241ED3DD2F0088C7B7 /* NSString+ZJNetworkingMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ZJNetworkingMethods.m"; sourceTree = "<group>"; };
+		566A46271ED3DED40088C7B7 /* ZJLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJLogger.h; sourceTree = "<group>"; };
+		566A46281ED3DED40088C7B7 /* ZJLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJLogger.m; sourceTree = "<group>"; };
+		566A462A1ED3E0530088C7B7 /* NSMutableString+ZJNetworkingMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableString+ZJNetworkingMethods.h"; sourceTree = "<group>"; };
+		566A462B1ED3E0530088C7B7 /* NSMutableString+ZJNetworkingMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableString+ZJNetworkingMethods.m"; sourceTree = "<group>"; };
+		566A46301ED3E2670088C7B7 /* ZJNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJNetworking.h; sourceTree = "<group>"; };
+		566A46321ED3E2CE0088C7B7 /* ZJCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJCache.h; sourceTree = "<group>"; };
+		566A46331ED3E2CE0088C7B7 /* ZJCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJCache.m; sourceTree = "<group>"; };
+		566A46351ED3E2E80088C7B7 /* ZJCacheObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJCacheObject.h; sourceTree = "<group>"; };
+		566A46361ED3E2E80088C7B7 /* ZJCacheObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJCacheObject.m; sourceTree = "<group>"; };
+		566A46381ED3E71D0088C7B7 /* UIDevice+ZJNetworkingMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+ZJNetworkingMethods.h"; sourceTree = "<group>"; };
+		566A46391ED3E71D0088C7B7 /* UIDevice+ZJNetworkingMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+ZJNetworkingMethods.m"; sourceTree = "<group>"; };
+		566A463C1ED3E81B0088C7B7 /* ZJBaseAPICommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJBaseAPICommand.h; sourceTree = "<group>"; };
+		566A463D1ED3E81B0088C7B7 /* ZJBaseAPICommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJBaseAPICommand.m; sourceTree = "<group>"; };
+		566A46401ED3EA390088C7B7 /* ZJLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJLocationManager.h; sourceTree = "<group>"; };
+		566A46411ED3EA390088C7B7 /* ZJLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJLocationManager.m; sourceTree = "<group>"; };
+		566A46431ED3EA530088C7B7 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		566A46491ED4103B0088C7B7 /* BaseService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseService.h; sourceTree = "<group>"; };
+		566A464A1ED4103B0088C7B7 /* BaseService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseService.m; sourceTree = "<group>"; };
+		566A464C1ED412A90088C7B7 /* BaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseManager.h; sourceTree = "<group>"; };
+		566A464D1ED412A90088C7B7 /* BaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseManager.m; sourceTree = "<group>"; };
+		56A010CC1EF265C500330C99 /* ca.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = ca.cer; sourceTree = "<group>"; };
+		56A010CD1EF265C500330C99 /* client.pfx */ = {isa = PBXFileReference; lastKnownFileType = file; path = client.pfx; sourceTree = "<group>"; };
+		56A89C441ED7BA8300415C63 /* ZJSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJSessionManager.h; sourceTree = "<group>"; };
+		56A89C451ED7BA8300415C63 /* ZJSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJSessionManager.m; sourceTree = "<group>"; };
+		56A89C471ED7BC4200415C63 /* BaseApiManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseApiManager.h; sourceTree = "<group>"; };
+		56A89C481ED7BC4200415C63 /* BaseApiManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseApiManager.m; sourceTree = "<group>"; };
+		56ED70951F2F1BC70087A6E4 /* JddBaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JddBaseRequest.h; sourceTree = "<group>"; };
+		56ED70961F2F1BC70087A6E4 /* JddBaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JddBaseRequest.m; sourceTree = "<group>"; };
+		56ED70981F2F266F0087A6E4 /* JddNetworkAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JddNetworkAgent.h; sourceTree = "<group>"; };
+		56ED70991F2F266F0087A6E4 /* JddNetworkAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JddNetworkAgent.m; sourceTree = "<group>"; };
+		56ED709B1F2F27A30087A6E4 /* JddNetworkConfigure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JddNetworkConfigure.h; sourceTree = "<group>"; };
+		56ED709C1F2F27A30087A6E4 /* JddNetworkConfigure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JddNetworkConfigure.m; sourceTree = "<group>"; };
+		56ED709E1F2F29A30087A6E4 /* JddNetworkPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JddNetworkPrivate.h; sourceTree = "<group>"; };
+		56ED709F1F2F29A30087A6E4 /* JddNetworkPrivate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JddNetworkPrivate.m; sourceTree = "<group>"; };
+		56ED70A11F2F29DA0087A6E4 /* JddRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JddRequest.h; sourceTree = "<group>"; };
+		56ED70A21F2F29DA0087A6E4 /* JddRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JddRequest.m; sourceTree = "<group>"; };
+		56ED70A41F2F2B290087A6E4 /* JddBatchRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JddBatchRequest.h; sourceTree = "<group>"; };
+		56ED70A51F2F2B290087A6E4 /* JddBatchRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JddBatchRequest.m; sourceTree = "<group>"; };
+		56ED70A71F2F2D0A0087A6E4 /* JddChainRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JddChainRequest.h; sourceTree = "<group>"; };
+		56ED70A81F2F2D0A0087A6E4 /* JddChainRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JddChainRequest.m; sourceTree = "<group>"; };
+		56ED70AA1F302BEC0087A6E4 /* JddBatchReqeustAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JddBatchReqeustAgent.h; sourceTree = "<group>"; };
+		56ED70AB1F302BEC0087A6E4 /* JddBatchReqeustAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JddBatchReqeustAgent.m; sourceTree = "<group>"; };
+		56ED70AD1F302F3A0087A6E4 /* JddChainReqesutAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JddChainReqesutAgent.h; sourceTree = "<group>"; };
+		56ED70AE1F302F3A0087A6E4 /* JddChainReqesutAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JddChainReqesutAgent.m; sourceTree = "<group>"; };
+		F41EAC53F3BF8DAB86685ED1 /* libPods-ZJNetWorking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZJNetWorking.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F474EF7939FB134E777C8E92 /* Pods-ZJNetWorking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJNetWorking.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZJNetWorking/Pods-ZJNetWorking.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		566A45CB1ED3BE800088C7B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				566A46441ED3EA530088C7B7 /* CoreLocation.framework in Frameworks */,
+				C2FEDC78A0EF48CA5B68F71A /* libPods-ZJNetWorking.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08150E05E432609015F71142 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				352455AAA625D4CEB87265AD /* Pods-ZJNetWorking.debug.xcconfig */,
+				F474EF7939FB134E777C8E92 /* Pods-ZJNetWorking.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		566A45C51ED3BE800088C7B7 = {
+			isa = PBXGroup;
+			children = (
+				566A45D01ED3BE800088C7B7 /* ZJNetWorking */,
+				566A45CF1ED3BE800088C7B7 /* Products */,
+				08150E05E432609015F71142 /* Pods */,
+				BFE26B78F93A6DE2455F3A80 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		566A45CF1ED3BE800088C7B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				566A45CE1ED3BE800088C7B7 /* ZJNetWorking.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		566A45D01ED3BE800088C7B7 /* ZJNetWorking */ = {
+			isa = PBXGroup;
+			children = (
+				56ED70941F2F1BB50087A6E4 /* JddNetwork */,
+				56A89C431ED7B95F00415C63 /* RacNetworking */,
+				566A46301ED3E2670088C7B7 /* ZJNetworking.h */,
+				566A463F1ED3EA2C0088C7B7 /* LocationManager */,
+				566A463B1ED3E8030088C7B7 /* Command */,
+				566A46311ED3E2B80088C7B7 /* CacheComponents */,
+				566A46261ED3DEC10088C7B7 /* LogComponents */,
+				566A46101ED3D2840088C7B7 /* Generators */,
+				566A46091ED3CF690088C7B7 /* Services */,
+				566A46051ED3CD6E0088C7B7 /* APIProxy */,
+				566A45FB1ED3C42E0088C7B7 /* Catagory */,
+				566A45F71ED3C3190088C7B7 /* URLResponse */,
+				566A45F61ED3C2FC0088C7B7 /* BaseAPIManager */,
+				566A45EF1ED3C27E0088C7B7 /* ZJNetWorkingConfigure */,
+				566A45D41ED3BE800088C7B7 /* AppDelegate.h */,
+				566A45D51ED3BE800088C7B7 /* AppDelegate.m */,
+				566A45D71ED3BE800088C7B7 /* ViewController.h */,
+				566A45D81ED3BE800088C7B7 /* ViewController.m */,
+				566A46481ED410160088C7B7 /* DemoTest */,
+				566A45DA1ED3BE800088C7B7 /* Main.storyboard */,
+				566A45DD1ED3BE800088C7B7 /* Assets.xcassets */,
+				566A45DF1ED3BE800088C7B7 /* LaunchScreen.storyboard */,
+				56A010CC1EF265C500330C99 /* ca.cer */,
+				56A010CD1EF265C500330C99 /* client.pfx */,
+				566A45E21ED3BE800088C7B7 /* Info.plist */,
+				566A45D11ED3BE800088C7B7 /* Supporting Files */,
+			);
+			path = ZJNetWorking;
+			sourceTree = "<group>";
+		};
+		566A45D11ED3BE800088C7B7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				566A45D21ED3BE800088C7B7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		566A45EF1ED3C27E0088C7B7 /* ZJNetWorkingConfigure */ = {
+			isa = PBXGroup;
+			children = (
+				566A45F01ED3C27E0088C7B7 /* ZJLoggerConfiguration.h */,
+				566A45F11ED3C27E0088C7B7 /* ZJLoggerConfiguration.m */,
+				566A45F21ED3C27E0088C7B7 /* ZJNetWorkingConfigurationManager.h */,
+				566A45F31ED3C27E0088C7B7 /* ZJNetWorkingConfigurationManager.m */,
+			);
+			path = ZJNetWorkingConfigure;
+			sourceTree = "<group>";
+		};
+		566A45F61ED3C2FC0088C7B7 /* BaseAPIManager */ = {
+			isa = PBXGroup;
+			children = (
+				566A46021ED3C6C60088C7B7 /* ZJAPIBaseManager.h */,
+				566A46031ED3C6C60088C7B7 /* ZJAPIBaseManager.m */,
+			);
+			path = BaseAPIManager;
+			sourceTree = "<group>";
+		};
+		566A45F71ED3C3190088C7B7 /* URLResponse */ = {
+			isa = PBXGroup;
+			children = (
+				566A45F81ED3C3310088C7B7 /* ZJURLResponse.h */,
+				566A45F91ED3C3310088C7B7 /* ZJURLResponse.m */,
+			);
+			path = URLResponse;
+			sourceTree = "<group>";
+		};
+		566A45FB1ED3C42E0088C7B7 /* Catagory */ = {
+			isa = PBXGroup;
+			children = (
+				566A45FC1ED3C4440088C7B7 /* NSObject+ZJNetworkingMethods.h */,
+				566A45FD1ED3C4440088C7B7 /* NSObject+ZJNetworkingMethods.m */,
+				566A45FF1ED3C50F0088C7B7 /* NSURLRequest+ZJNetworkingMethods.h */,
+				566A46001ED3C50F0088C7B7 /* NSURLRequest+ZJNetworkingMethods.m */,
+				566A46171ED3D3280088C7B7 /* NSDictionary+CTNetworkingMethods.h */,
+				566A46181ED3D3280088C7B7 /* NSDictionary+CTNetworkingMethods.m */,
+				566A461A1ED3D3960088C7B7 /* NSArray+CTNetworkingMethods.h */,
+				566A461B1ED3D3960088C7B7 /* NSArray+CTNetworkingMethods.m */,
+				566A46231ED3DD2F0088C7B7 /* NSString+ZJNetworkingMethods.h */,
+				566A46241ED3DD2F0088C7B7 /* NSString+ZJNetworkingMethods.m */,
+				566A462A1ED3E0530088C7B7 /* NSMutableString+ZJNetworkingMethods.h */,
+				566A462B1ED3E0530088C7B7 /* NSMutableString+ZJNetworkingMethods.m */,
+				566A46381ED3E71D0088C7B7 /* UIDevice+ZJNetworkingMethods.h */,
+				566A46391ED3E71D0088C7B7 /* UIDevice+ZJNetworkingMethods.m */,
+			);
+			path = Catagory;
+			sourceTree = "<group>";
+		};
+		566A46051ED3CD6E0088C7B7 /* APIProxy */ = {
+			isa = PBXGroup;
+			children = (
+				566A46061ED3CD810088C7B7 /* ZJApiProxy.h */,
+				566A46071ED3CD810088C7B7 /* ZJApiProxy.m */,
+			);
+			path = APIProxy;
+			sourceTree = "<group>";
+		};
+		566A46091ED3CF690088C7B7 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				566A460A1ED3CF830088C7B7 /* ZJService.h */,
+				566A460B1ED3CF830088C7B7 /* ZJService.m */,
+				566A460D1ED3D1890088C7B7 /* ZJServiceFactory.h */,
+				566A460E1ED3D1890088C7B7 /* ZJServiceFactory.m */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		566A46101ED3D2840088C7B7 /* Generators */ = {
+			isa = PBXGroup;
+			children = (
+				566A46111ED3D2B70088C7B7 /* SignatureGenerator */,
+				566A46121ED3D2B70088C7B7 /* RequestGenerator */,
+				566A46131ED3D2B70088C7B7 /* CommonParamsGenerator */,
+			);
+			path = Generators;
+			sourceTree = "<group>";
+		};
+		566A46111ED3D2B70088C7B7 /* SignatureGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				566A46201ED3DCF10088C7B7 /* ZJSignatureGenerator.h */,
+				566A46211ED3DCF10088C7B7 /* ZJSignatureGenerator.m */,
+			);
+			path = SignatureGenerator;
+			sourceTree = "<group>";
+		};
+		566A46121ED3D2B70088C7B7 /* RequestGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				566A461D1ED3DCD10088C7B7 /* ZJRequestGenerator.h */,
+				566A461E1ED3DCD10088C7B7 /* ZJRequestGenerator.m */,
+			);
+			path = RequestGenerator;
+			sourceTree = "<group>";
+		};
+		566A46131ED3D2B70088C7B7 /* CommonParamsGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				566A46141ED3D2D80088C7B7 /* ZJCommonParamsGenerator.h */,
+				566A46151ED3D2D80088C7B7 /* ZJCommonParamsGenerator.m */,
+			);
+			path = CommonParamsGenerator;
+			sourceTree = "<group>";
+		};
+		566A46261ED3DEC10088C7B7 /* LogComponents */ = {
+			isa = PBXGroup;
+			children = (
+				566A46271ED3DED40088C7B7 /* ZJLogger.h */,
+				566A46281ED3DED40088C7B7 /* ZJLogger.m */,
+			);
+			path = LogComponents;
+			sourceTree = "<group>";
+		};
+		566A46311ED3E2B80088C7B7 /* CacheComponents */ = {
+			isa = PBXGroup;
+			children = (
+				566A46321ED3E2CE0088C7B7 /* ZJCache.h */,
+				566A46331ED3E2CE0088C7B7 /* ZJCache.m */,
+				566A46351ED3E2E80088C7B7 /* ZJCacheObject.h */,
+				566A46361ED3E2E80088C7B7 /* ZJCacheObject.m */,
+			);
+			path = CacheComponents;
+			sourceTree = "<group>";
+		};
+		566A463B1ED3E8030088C7B7 /* Command */ = {
+			isa = PBXGroup;
+			children = (
+				566A463C1ED3E81B0088C7B7 /* ZJBaseAPICommand.h */,
+				566A463D1ED3E81B0088C7B7 /* ZJBaseAPICommand.m */,
+			);
+			path = Command;
+			sourceTree = "<group>";
+		};
+		566A463F1ED3EA2C0088C7B7 /* LocationManager */ = {
+			isa = PBXGroup;
+			children = (
+				566A46401ED3EA390088C7B7 /* ZJLocationManager.h */,
+				566A46411ED3EA390088C7B7 /* ZJLocationManager.m */,
+			);
+			path = LocationManager;
+			sourceTree = "<group>";
+		};
+		566A46481ED410160088C7B7 /* DemoTest */ = {
+			isa = PBXGroup;
+			children = (
+				566A46491ED4103B0088C7B7 /* BaseService.h */,
+				566A464A1ED4103B0088C7B7 /* BaseService.m */,
+				566A464C1ED412A90088C7B7 /* BaseManager.h */,
+				566A464D1ED412A90088C7B7 /* BaseManager.m */,
+			);
+			path = DemoTest;
+			sourceTree = "<group>";
+		};
+		56A89C431ED7B95F00415C63 /* RacNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				56A89C441ED7BA8300415C63 /* ZJSessionManager.h */,
+				56A89C451ED7BA8300415C63 /* ZJSessionManager.m */,
+				56A89C471ED7BC4200415C63 /* BaseApiManager.h */,
+				56A89C481ED7BC4200415C63 /* BaseApiManager.m */,
+			);
+			path = RacNetworking;
+			sourceTree = "<group>";
+		};
+		56ED70941F2F1BB50087A6E4 /* JddNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				56ED70951F2F1BC70087A6E4 /* JddBaseRequest.h */,
+				56ED70961F2F1BC70087A6E4 /* JddBaseRequest.m */,
+				56ED70981F2F266F0087A6E4 /* JddNetworkAgent.h */,
+				56ED70991F2F266F0087A6E4 /* JddNetworkAgent.m */,
+				56ED709B1F2F27A30087A6E4 /* JddNetworkConfigure.h */,
+				56ED709C1F2F27A30087A6E4 /* JddNetworkConfigure.m */,
+				56ED709E1F2F29A30087A6E4 /* JddNetworkPrivate.h */,
+				56ED709F1F2F29A30087A6E4 /* JddNetworkPrivate.m */,
+				56ED70A11F2F29DA0087A6E4 /* JddRequest.h */,
+				56ED70A21F2F29DA0087A6E4 /* JddRequest.m */,
+				56ED70A41F2F2B290087A6E4 /* JddBatchRequest.h */,
+				56ED70A51F2F2B290087A6E4 /* JddBatchRequest.m */,
+				56ED70AA1F302BEC0087A6E4 /* JddBatchReqeustAgent.h */,
+				56ED70AB1F302BEC0087A6E4 /* JddBatchReqeustAgent.m */,
+				56ED70A71F2F2D0A0087A6E4 /* JddChainRequest.h */,
+				56ED70A81F2F2D0A0087A6E4 /* JddChainRequest.m */,
+				56ED70AD1F302F3A0087A6E4 /* JddChainReqesutAgent.h */,
+				56ED70AE1F302F3A0087A6E4 /* JddChainReqesutAgent.m */,
+			);
+			path = JddNetwork;
+			sourceTree = "<group>";
+		};
+		BFE26B78F93A6DE2455F3A80 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				566A46431ED3EA530088C7B7 /* CoreLocation.framework */,
+				F41EAC53F3BF8DAB86685ED1 /* libPods-ZJNetWorking.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		566A45CD1ED3BE800088C7B7 /* ZJNetWorking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 566A45E51ED3BE800088C7B7 /* Build configuration list for PBXNativeTarget "ZJNetWorking" */;
+			buildPhases = (
+				94C3D9D70EC21652FDB0DB8E /* [CP] Check Pods Manifest.lock */,
+				566A45CA1ED3BE800088C7B7 /* Sources */,
+				566A45CB1ED3BE800088C7B7 /* Frameworks */,
+				566A45CC1ED3BE800088C7B7 /* Resources */,
+				4B6D2E341B946313C8F85F96 /* [CP] Embed Pods Frameworks */,
+				D93A6F1FCA019331983103C8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZJNetWorking;
+			productName = ZJNetWorking;
+			productReference = 566A45CE1ED3BE800088C7B7 /* ZJNetWorking.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		566A45C61ED3BE800088C7B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "朱爱俊";
+				TargetAttributes = {
+					566A45CD1ED3BE800088C7B7 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 566A45C91ED3BE800088C7B7 /* Build configuration list for PBXProject "ZJNetWorking" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 566A45C51ED3BE800088C7B7;
+			productRefGroup = 566A45CF1ED3BE800088C7B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				566A45CD1ED3BE800088C7B7 /* ZJNetWorking */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		566A45CC1ED3BE800088C7B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				566A45E11ED3BE800088C7B7 /* LaunchScreen.storyboard in Resources */,
+				566A45DE1ED3BE800088C7B7 /* Assets.xcassets in Resources */,
+				56A010CE1EF265C500330C99 /* ca.cer in Resources */,
+				566A45DC1ED3BE800088C7B7 /* Main.storyboard in Resources */,
+				56A010CF1EF265C500330C99 /* client.pfx in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4B6D2E341B946313C8F85F96 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZJNetWorking/Pods-ZJNetWorking-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94C3D9D70EC21652FDB0DB8E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D93A6F1FCA019331983103C8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZJNetWorking/Pods-ZJNetWorking-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		566A45CA1ED3BE800088C7B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56ED70A31F2F29DA0087A6E4 /* JddRequest.m in Sources */,
+				566A463A1ED3E71D0088C7B7 /* UIDevice+ZJNetworkingMethods.m in Sources */,
+				566A45D91ED3BE800088C7B7 /* ViewController.m in Sources */,
+				566A464B1ED4103B0088C7B7 /* BaseService.m in Sources */,
+				566A46011ED3C50F0088C7B7 /* NSURLRequest+ZJNetworkingMethods.m in Sources */,
+				566A46291ED3DED40088C7B7 /* ZJLogger.m in Sources */,
+				566A46191ED3D3280088C7B7 /* NSDictionary+CTNetworkingMethods.m in Sources */,
+				566A461F1ED3DCD10088C7B7 /* ZJRequestGenerator.m in Sources */,
+				566A462C1ED3E0530088C7B7 /* NSMutableString+ZJNetworkingMethods.m in Sources */,
+				56ED70A61F2F2B290087A6E4 /* JddBatchRequest.m in Sources */,
+				56A89C461ED7BA8300415C63 /* ZJSessionManager.m in Sources */,
+				566A46341ED3E2CE0088C7B7 /* ZJCache.m in Sources */,
+				566A46251ED3DD2F0088C7B7 /* NSString+ZJNetworkingMethods.m in Sources */,
+				56A89C491ED7BC4200415C63 /* BaseApiManager.m in Sources */,
+				56ED70AF1F302F3A0087A6E4 /* JddChainReqesutAgent.m in Sources */,
+				566A460C1ED3CF830088C7B7 /* ZJService.m in Sources */,
+				56ED70971F2F1BC70087A6E4 /* JddBaseRequest.m in Sources */,
+				56ED70AC1F302BEC0087A6E4 /* JddBatchReqeustAgent.m in Sources */,
+				56ED709D1F2F27A30087A6E4 /* JddNetworkConfigure.m in Sources */,
+				566A45D61ED3BE800088C7B7 /* AppDelegate.m in Sources */,
+				566A45FA1ED3C3310088C7B7 /* ZJURLResponse.m in Sources */,
+				566A45F41ED3C27E0088C7B7 /* ZJLoggerConfiguration.m in Sources */,
+				566A46221ED3DCF10088C7B7 /* ZJSignatureGenerator.m in Sources */,
+				566A46421ED3EA390088C7B7 /* ZJLocationManager.m in Sources */,
+				56ED709A1F2F266F0087A6E4 /* JddNetworkAgent.m in Sources */,
+				566A46041ED3C6C60088C7B7 /* ZJAPIBaseManager.m in Sources */,
+				566A461C1ED3D3960088C7B7 /* NSArray+CTNetworkingMethods.m in Sources */,
+				566A46161ED3D2D80088C7B7 /* ZJCommonParamsGenerator.m in Sources */,
+				56ED70A01F2F29A30087A6E4 /* JddNetworkPrivate.m in Sources */,
+				566A45D31ED3BE800088C7B7 /* main.m in Sources */,
+				566A45FE1ED3C4440088C7B7 /* NSObject+ZJNetworkingMethods.m in Sources */,
+				566A464E1ED412A90088C7B7 /* BaseManager.m in Sources */,
+				56ED70A91F2F2D0A0087A6E4 /* JddChainRequest.m in Sources */,
+				566A45F51ED3C27E0088C7B7 /* ZJNetWorkingConfigurationManager.m in Sources */,
+				566A460F1ED3D1890088C7B7 /* ZJServiceFactory.m in Sources */,
+				566A463E1ED3E81B0088C7B7 /* ZJBaseAPICommand.m in Sources */,
+				566A46081ED3CD810088C7B7 /* ZJApiProxy.m in Sources */,
+				566A46371ED3E2E80088C7B7 /* ZJCacheObject.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		566A45DA1ED3BE800088C7B7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				566A45DB1ED3BE800088C7B7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		566A45DF1ED3BE800088C7B7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				566A45E01ED3BE800088C7B7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		566A45E31ED3BE800088C7B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		566A45E41ED3BE800088C7B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		566A45E61ED3BE800088C7B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 352455AAA625D4CEB87265AD /* Pods-ZJNetWorking.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZJNetWorking/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jdd.ZJNetWorking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		566A45E71ED3BE800088C7B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F474EF7939FB134E777C8E92 /* Pods-ZJNetWorking.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZJNetWorking/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jdd.ZJNetWorking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		566A45C91ED3BE800088C7B7 /* Build configuration list for PBXProject "ZJNetWorking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				566A45E31ED3BE800088C7B7 /* Debug */,
+				566A45E41ED3BE800088C7B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		566A45E51ED3BE800088C7B7 /* Build configuration list for PBXNativeTarget "ZJNetWorking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				566A45E61ED3BE800088C7B7 /* Debug */,
+				566A45E71ED3BE800088C7B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 566A45C61ED3BE800088C7B7 /* Project object */;
+}

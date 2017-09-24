@@ -1,0 +1,7 @@
+platform :ios, '8.0'
+target :ZJNetWorking do
+	pod 'AFNetworking'
+	pod 'MJExtension'
+	pod 'ReactiveCocoa', '~> 2.4.7'
+    
+end
